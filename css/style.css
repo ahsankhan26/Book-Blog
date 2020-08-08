@@ -1,0 +1,222 @@
+/* =================================
+------------------------------------
+  Books - Ahsan's Read Books
+ ------------------------------------ 
+ ====================================*/
+
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.gallery-block{ padding-bottom: 60px; padding-top: 60px;}
+.gallery-block .heading{margin-bottom: 50px; text-align: center;}
+.gallery-block .heading h2{font-weight: bold;font-size: 1.4rem; text-transform: uppercase;}
+.gallery-block.cards-gallery h6{font-size: 17px; font-weight: bold;}
+.gallery-block.cards-gallery .card{transition: 0.4s easy;}
+.gallery-block.cards-gallery .card img{box-shadow: 0px 2px 10px rgba(0,0,0,0.15);}
+.gallery-block.cards-gallery .card-body{text-align: center;}
+.gallery-block.cards-gallery .card-body p{font-size: 15px;}
+.gallery-block.cards-gallery a{color:#212529; }
+.gallery-block.cards-gallery a:hover{text-decoration: none;}
+.gallery-block.cards-gallery  .card{
+  margin-bottom: 30px;
+  box-shadow: 0px 2px 10px rgba(0,0,0,0.15);
+}
+
+@media (min-width: 576px) {
+  .gallery-block .transform-on-hover {
+      transition: .2s ease-in-out !important; 
+  }
+  .gallery-block .transform-on-hover:hover {
+      transform: translateY(-10px) scale(1.02);
+      box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.15) !important;
+  }
+}
+
+html, body {
+  height: 100%;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #001418;
+  margin: 0;
+  font-weight: 600;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+p {
+  font-size: 18px;
+  color: #979797;
+  line-height: 1.8;
+}
+
+img {
+  max-width: 100%;
+}
+a:hover, a:focus {
+  text-decoration: none;
+  outline: none;
+}
+
+ul, ol {
+  padding: 0;
+  margin: 0;
+}
+/*------------------------
+  Helper css
+--------------------------*/
+.section-title {
+  font-size: 60px;
+}
+
+.section-title span {
+  color: #979797;
+}
+/*------------------------
+    Header Section
+--------------------------*/
+.navbar-expand-lg {
+  padding-top: 30px;
+  padding-bottom: 20px;
+  position: relative;
+}
+
+.navbar-brand {
+  font-size: 24px;
+  padding-top: 20px;
+  font-weight: 600;
+}
+
+.nav-link {
+  display: inline-block;
+  font-size: 18px;
+  color: #001418;
+  margin-left: 15px;
+  margin-right: 10px;
+  padding: 20px 0 5px;
+}
+
+/*------------------------
+    Intro Section
+--------------------------*/
+.intro-section {
+  padding: 110px 0;
+  margin-bottom: 200px;
+}
+
+.box{
+  position: absolute;
+  top: 150%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/*---- Scroll Down Arrow ---- */
+.box span { display: block; width: 20px; height: 20px; border-bottom: 1px solid #000; border-right: 1px solid #000; transform: rotate(45deg); margin: -10px; animation: animate 2s infinite; }
+.box span:nth-child(2){ animation-delay: -0.2s; } .box span:nth-child(3){ animation-delay: -0.4s; }
+@keyframes animate { 0% {opacity: 0; transform: rotate(45deg) translate(-20px, -20px);} 50% {opacity: 1;} 100% {opacity: 0;transform: rotate(45deg) translate(20px, 20px);} }
+
+/*------------------------
+    Book Section
+--------------------------*/
+.rating {
+  color: #979797
+}
+.fa-star{
+  color: #FFAC00;
+}
+
+.close {
+  font-size: 3rem;
+  font-weight: 400;
+}
+
+.col-8 {
+  color: #001418;
+}
+
+/*------------------------
+    Footer Section
+--------------------------*/
+.footer-section {
+  padding: 110px 0;
+}
+
+.footer-section .copyright {
+  font-size: 12px;
+  color: #979797;
+}
+
+.social-links {
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+.social-links a {
+  color: #979797;
+  margin-right: 30px;
+}
+
+.social-links a:hover {
+  color: #001418;
+  margin-right: 30px;
+}
+
+.social-links a:last-child {
+  margin-right: 0;
+}
+
+/* ===========================
+  Responsive
+==============================*/
+@media only screen and (max-width: 1448px) {
+  .home-2.container {width: auto;}
+}
+/* Medium screen : 992px. */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .portfolio-item {height: 450px;}
+}
+/* Tablet :768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .body-pad {padding: 0 30px;}
+  .portfolio-item {height: 350px;}
+}
+/* Large Mobile :480px. */
+@media only screen and (max-width: 767px) {
+  .body-pad {padding: 0 15px;}
+  .main-menu {
+    position: absolute;
+    background: #efefef;
+    width: 100%;
+    z-index: 999;
+    left: 0;
+    top: 30px;
+    padding-top: 15px;
+    display: none;
+  }
+  .main-menu ul li a {
+    padding: 10px 15px;
+    border-bottom: 1px solid #ddd;
+    display: block;
+  }
+  .main-menu ul li {display: block;}
+  .main-menu ul li:last-child a {border-bottom: none;}
+  .nav-switch {
+    position: absolute;
+    right: 25px;
+    font-size: 30px;
+    color: #333;
+    top: 35px;
+    display: block;
+  }
+  .header-btn {display: none;}
+  .section-title {font-size: 45px;}
+}
+
+/* small Mobile :320px. */
+@media only screen and (max-width: 479px) {
+  .section-title {font-size: 30px;}
+}
