@@ -30,6 +30,9 @@
 # Clone this repository
 $ git clone https://github.com/ahsankhan26/Read-Books.git
 
+# Go to the repository folder
+$ cd Read Books
+
 # Create a new file(config.js)
 $ touch config.js
 ```
