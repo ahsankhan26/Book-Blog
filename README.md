@@ -10,7 +10,7 @@
 <p align="center">
   <a href="#overview">Overview</a> :small_blue_diamond:
   <a href="#preview">Preview</a> :small_blue_diamond:
-  <a href="#installation">Installation</a>
+  <a href="#setup">Setup</a>
 </p>
 
 <h1 id="overview">Overview</h1>
@@ -24,7 +24,7 @@
   <a href="https://ahsankhan.me/books"><img src="https://forthebadge.com/images/badges/check-it-out.svg"></a>
 </p>
 
-<h1 id="installation">Installation</h1>
+<h1 id="setup">Setup</h1>
 
 ```ruby
 # Clone this repository
