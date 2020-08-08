@@ -47,7 +47,7 @@ var config = {
 ```
 <h4>:sparkles: That's it :sparkles:</h4>
 
-<h1 id="overview">:wrench:Made Using</h1>
+<h1 id="overview">Made Using :wrench:</h1>
 
 * HTML
 * CSS
