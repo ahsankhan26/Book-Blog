@@ -77,6 +77,7 @@ function buildBookList(xmlObj){
 		// and depending on the rating, the variable appends	
 		// not the most efficient way	
 		// not DRY
+		let noStar = "<i class='fa fa-star-o' aria-hidden='true'></i><i class='fa fa-star-o' aria-hidden='true'></i><i class='fa fa-star-o' aria-hidden='true'></i><i class='fa fa-star-o' aria-hidden='true'></i><i class='fa fa-star-o' aria-hidden='true'></i>";
 		let oneStar = "<i class='fa fa-star' aria-hidden='true'></i><i class='fa fa-star-o' aria-hidden='true'></i><i class='fa fa-star-o' aria-hidden='true'></i><i class='fa fa-star-o' aria-hidden='true'></i><i class='fa fa-star-o' aria-hidden='true'></i>";
 		let twoStar = "<i class='fa fa-star' aria-hidden='true'></i><i class='fa fa-star' aria-hidden='true'></i><i class='fa fa-star-o' aria-hidden='true'></i><i class='fa fa-star-o' aria-hidden='true'></i><i class='fa fa-star-o' aria-hidden='true'></i>";
 		let threeStar = "<i class='fa fa-star' aria-hidden='true'></i><i class='fa fa-star' aria-hidden='true'></i><i class='fa fa-star' aria-hidden='true'></i><i class='fa fa-star-o' aria-hidden='true'></i><i class='fa fa-star-o' aria-hidden='true'></i>";
@@ -133,8 +134,10 @@ function buildBookList(xmlObj){
 			rating.innerHTML += threeStar;
 		}else if(parseInt(ratingNum) === 4){
 			rating.innerHTML += fourStar;
-		} else{
+		}else if(parseInt(ratingNum) === 5){
 			rating.innerHTML += fiveStar;
+		} else{
+			rating.innerHTML += noStar;
 		}
 		
 
