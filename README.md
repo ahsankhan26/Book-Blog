@@ -1,4 +1,4 @@
-<h1 align="center">My Read Books</h1>
+<h1 align="center">Read Books</h1>
 
 
 <h3 align="center">:books: A Personal Read Book Blog Template using Goodreads API :book:</h3>
