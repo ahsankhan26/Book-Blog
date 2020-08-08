@@ -1,4 +1,4 @@
-<h1 id="title" align="center">Book Blog Template</h1>
+<h1 id="title" align="center">Book Blog</h1>
 
 
 <h3 align="center">:books: A Personal Book Blog Template using Goodreads API :book:</h3>
