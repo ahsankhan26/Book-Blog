@@ -28,10 +28,10 @@
 
 ```ruby
 # Clone this repository
-$ git clone https://github.com/ahsankhan26/Read-Books.git
+$ git clone https://github.com/ahsankhan26/Book-Blog.git
 
 # Go to the repository folder
-$ cd Read-Books
+$ cd Book-Blog
 
 # Create a new file(config.js)
 $ touch config.js
