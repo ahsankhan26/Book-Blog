@@ -41,7 +41,7 @@ $ touch config.js
 
 ```javascript
 var config = {
-  API_KEY : 'YOUR_GOODREADS_API_HERE',
+  API_KEY : 'YOUR_GOODREADS_API_KEY_HERE',
   userID: 'YOUR_GOODREADS_ID_HERE'
 }
 ```
