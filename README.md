@@ -1,7 +1,7 @@
-<h1 id="title" align="center">Read Books</h1>
+<h1 id="title" align="center">Book Blog Template</h1>
 
 
-<h3 align="center">:books: A Personal Read Book Blog Template using Goodreads API :book:</h3>
+<h3 align="center">:books: A Personal Book Blog Template using Goodreads API :book:</h3>
 <p align="center">
   <a href="#title"><img src="https://forthebadge.com/images/badges/made-with-javascript.svg"></a>
   <a href="#title"><img src="https://forthebadge.com/images/badges/built-with-love.svg"></a>
