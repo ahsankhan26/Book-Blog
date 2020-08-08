@@ -46,6 +46,14 @@ var config = {
   userID: 'YOUR_GOODREADS_ID_HERE'
 }
 ```
+<h4>goodreads.com</h4>
+
+UserID can be found in the URL when you visit your Goodreads profile
+
+```python
+https://goodreads.com/user/show/'userID'-userName
+```
+
 <h4>:sparkles: That's it :sparkles:</h4>
 
 <h1 id="tools">Made Using :wrench:</h1>
