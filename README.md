@@ -10,7 +10,8 @@
 <p align="center">
   <a href="#overview">Overview</a> :small_blue_diamond:
   <a href="#preview">Preview</a> :small_blue_diamond:
-  <a href="#setup">Setup</a>
+  <a href="#setup">Setup</a> :small_blue_diamond:
+  <a href="#tools">Tools</a>
 </p>
 
 <h1 id="overview">Overview</h1>
@@ -47,7 +48,7 @@ var config = {
 ```
 <h4>:sparkles: That's it :sparkles:</h4>
 
-<h1 id="overview">Made Using :wrench:</h1>
+<h1 id="tools">Made Using :wrench:</h1>
 
 * HTML
 * CSS
