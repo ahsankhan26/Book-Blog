@@ -4,8 +4,8 @@
 <h3 align="center">:books: A Personal Read Book Blog Template using Goodreads API :book:</h3>
 <p align="center">
   <a href="#title"><img src="https://forthebadge.com/images/badges/made-with-javascript.svg"></a>
-  <img src="https://forthebadge.com/images/badges/built-with-love.svg">
-  <img src="https://forthebadge.com/images/badges/uses-html.svg">
+  <a href="#title"><img src="https://forthebadge.com/images/badges/built-with-love.svg"></a>
+  <a href="#title"><img src="https://forthebadge.com/images/badges/uses-html.svg"></a>
 </p>
 
 <h1 align="center">Preview</h1>
