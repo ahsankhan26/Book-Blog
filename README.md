@@ -16,7 +16,7 @@
 
 <h1 id="overview">Overview</h1>
 <p align="center">
-<img src="https://user-images.githubusercontent.com/28962172/89716051-6be15100-d9c3-11ea-9dee-183e07866daa.gif"/>
+<img width="100%" src="https://user-images.githubusercontent.com/28962172/89716051-6be15100-d9c3-11ea-9dee-183e07866daa.gif"/>
 </p>
 
 
