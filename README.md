@@ -51,7 +51,7 @@ var config = {
 UserID can be found in the URL when you visit your Goodreads profile
 
 ```ruby
-https://goodreads.com/user/show/'userID'-userName
+https://goodreads.com/user/show/'userID'-user-name
 ```
 
 <h4>:sparkles: That's it :sparkles:</h4>
