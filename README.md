@@ -50,7 +50,7 @@ var config = {
 
 UserID can be found in the URL when you visit your Goodreads profile
 
-```python
+```ruby
 https://goodreads.com/user/show/'userID'-userName
 ```
 
