@@ -27,6 +27,8 @@
 
 <h1 id="setup">Setup</h1>
 
+You need to have a Goodreads account in order to use to API
+
 ```ruby
 # Clone this repository
 $ git clone https://github.com/ahsankhan26/Book-Blog.git
