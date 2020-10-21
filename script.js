@@ -171,6 +171,8 @@ function buildBookList(xmlObj){
 
 
 	}
+	let loader = document.querySelector(".loader-wrapper");
+	loader.remove();
 	console.log("outside loop");
 }
 
