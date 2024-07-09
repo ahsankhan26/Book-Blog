@@ -1,3 +1,8 @@
+> [!CAUTION]
+> **Goodreads API Notice**: Goodreads has stopped distributing API keys. 
+
+
+
 <h1 id="title" align="center">Book Blog</h1>
 
 
